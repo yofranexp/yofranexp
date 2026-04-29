@@ -1,16 +1,26 @@
-## Hi there 👋
+## Hola 👋, soy Yofran Perdomo
+
+Estadístico egresado de la Universidad Central de Venezuela (UCV). Me especializo en el análisis de datos, visualización y desarrollo de aplicaciones interactivas para facilitar la toma de decisiones.
+
+🌍 **Ubicación:** Caracas, Venezuela
+🏢 **Trabajo actual:** Especialista de Datos en la Federación Venezolanza de Fútbol
+📧 **Contacto:** <yofran795@gmail.com>
+
+### 🛠️ Lenguajes y Herramientas
+
+- **R:** `shiny`, `dplyr`, `stringr`, `arrow`, `ggplot2`
+- **Python:** `streamlit`, `shiny`, `pandas`, `numpy`, `plotly`
+
+### 📊 Sobre mí
+
+- 🔭 Actualmente enfocado en desarrollar dashboards interactivos, creación de bots en telegram y automatizaciones de procesos y de LLMs.
+- 🌱 Siempre explorando nuevas herramientas de Data Science y visualización.
+- 👯 Abierto a colaboraciones en proyectos de análisis de datos.
+
+### 🔗 Conecta conmigo
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yofranperdomo/)
 
 <!--
 **yofranexp/yofranexp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 -->
