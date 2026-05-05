@@ -19,9 +19,7 @@ Estadístico egresado de la Universidad Central de Venezuela (UCV). Me especiali
 
 ### :zap: actividad reciente
 <!--START_SECTION:activity-->
-
-<!--END_SECTION:activity-->
-
+<!--RECENT_ACTIVITY:start-->
 
 ### 🔗 Conecta conmigo
 
