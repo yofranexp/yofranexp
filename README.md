@@ -17,6 +17,12 @@ Estadístico egresado de la Universidad Central de Venezuela (UCV). Me especiali
 - 🌱 Siempre explorando nuevas herramientas de Data Science y visualización.
 - 👯 Abierto a colaboraciones en proyectos de análisis de datos.
 
+### :zap: actividad reciente
+<!--START_SECTION:activity-->
+
+<!--END_SECTION:activity-->
+
+
 ### 🔗 Conecta conmigo
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yofranperdomo/)
