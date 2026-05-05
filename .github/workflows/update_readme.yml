@@ -1,32 +1,18 @@
-name: Update Readme with Recent Activity
+name: Update README
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight (adjust as needed)
-  workflow_dispatch: # Allows you to run the workflow manually from the Actions tab
-
-# 1. THE QUICK FIX:
-# This environment variable forces all actions in this workflow to run 
-# on Node.js 24, resolving the deprecation warning immediately.
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    - cron: "* */12 * * *"
+  workflow_dispatch:
 
 jobs:
-  update-readme:
+  build:
     runs-on: ubuntu-latest
-    
-    steps:
-      # 2. THE PERMANENT FIX:
-      # We use @v4 instead of @v4.2.2. This ensures GitHub always fetches 
-      # the latest v4 release (which will natively support Node 24).
-      - name: Checkout repository
-        uses: actions/checkout@v4
+    name: Update Profile README
 
-      # 3. YOUR SPECIFIC ACTION:
-      # Because of the 'env' variable at the top of this file, 
-      # this action will safely run on Node 24 even if the maintainers 
-      # haven't released a v3 yet.
-      - name: Update GitHub Activity
-        uses: Readme-Workflows/recent-activity@v2.4.1
+    steps:
+      - uses: actions/checkout@v4.2.2
+      
+      - uses: Readme-Workflows/recent-activity@v2.4.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
